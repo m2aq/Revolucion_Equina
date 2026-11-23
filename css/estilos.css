@@ -59,11 +59,13 @@ h1, h2, h3, .cabecera__marca span {
   text-align: center;
   transition: background .25s, color .25s;
 }
+.icono-wa { width: 1.3em; height: 1.3em; fill: currentColor; vertical-align: -0.3em; margin-right: 10px; }
 .boton:hover { background: var(--dorado); border-color: var(--dorado); color: #fff; }
 .boton--chico { padding: 9px 18px; }
 .boton--borde { background: transparent; color: var(--tinta); }
 .boton--borde:hover { background: var(--tinta); border-color: var(--tinta); color: var(--crema); }
-.boton--whatsapp { background: var(--marino); border-color: var(--marino); }
+.boton--whatsapp { background: #178a46; border-color: #178a46; color: #fff; }
+.boton--whatsapp:hover { background: #0f6e38; border-color: #0f6e38; color: #fff; }
 
 /* ---------- Etiquetas ---------- */
 .etiqueta {

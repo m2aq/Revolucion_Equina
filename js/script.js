@@ -73,10 +73,10 @@ function crearTarjeta(p) {
   desc.textContent = p.desc;
 
   const boton = document.createElement('a');
-  boton.className = 'boton';
+  boton.className = 'boton boton--whatsapp';
   boton.target = '_blank';
   boton.rel = 'noopener';
-  boton.textContent = 'Consultar precio';
+  boton.innerHTML = '<svg class="icono-wa" viewBox="0 0 24 24" aria-hidden="true"><use href="#ico-wa"/></svg>Consultar precio';
   boton.href = enlaceWhatsApp('Hola, me interesa consultar el precio de: ' + p.nombre);
 
   cuerpo.append(marca, nombre, desc, boton);

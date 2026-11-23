@@ -20,6 +20,7 @@ Tienda web de productos veterinarios para caballos. Hermosillo, Sonora. Proyecto
 - El logo tiene fondo blanco opaco (no transparente); se integra en el fondo crema con `mix-blend-mode: multiply`. No recortarlo ni recomprimirlo sin avisar.
 
 ## Pendientes
+- SEO completo al final, cuando haya dominio y logo definitivos: vista previa al compartir (Open Graph con URL absoluta), favicon, `robots.txt`, `sitemap.xml`, canonical y datos estructurados de negocio local (Hermosillo). Ya tiene `title`, `meta description` e `lang="es-MX"`.
 - El logo actual (`img/logo.webp`) es provisional; el original lo entregará el cliente.
 - Las fotos de producto son versiones generadas de referencia; el usuario entregará las editadas definitivas.
 - El número de WhatsApp es provisional.
