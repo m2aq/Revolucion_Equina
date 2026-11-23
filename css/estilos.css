@@ -143,11 +143,10 @@ h1, h2, h3, .cabecera__marca span {
   box-shadow: 0 0 8px var(--verde), 0 0 14px var(--verde);
   animation: parpadeo 2s ease-in-out infinite;
 }
-.sello__der { grid-column: 3; justify-self: end; font-size: 0.95rem; color: #fff; }
 @keyframes parpadeo { 0%, 100% { opacity: 1; } 50% { opacity: 0.25; } }
 @media (max-width: 500px) {
   .sello { grid-template-columns: 1fr; justify-items: center; }
-  .sello__izq, .sello__der { grid-column: 1; justify-self: center; }
+  .sello__izq { grid-column: 1; justify-self: center; }
 }
 
 /* ---------- Móvil ---------- */

@@ -10,7 +10,7 @@ Tienda web de productos veterinarios para caballos. Hermosillo, Sonora. Proyecto
 - Estructura: `index.html`, `css/estilos.css`, `js/script.js`, `img/`. Productos definidos en el arreglo `productos` de `js/script.js`; el número de WhatsApp en la constante `WHATSAPP`.
 - Footer con sello m2aq (proyecto de cliente, formato del CLAUDE.md global).
 
-- Catálogo en rejilla de 3 columnas (2 en tableta, 1 en celular). Sello m2aq centrado en el footer, con el © año a la derecha.
+- Catálogo en rejilla de 3 columnas (2 en tableta, 1 en celular). Sello m2aq centrado en el footer, sin "© año" (el usuario lo pidió quitar).
 
 ## Estado actual (2026-11-20)
 - Primera versión hecha y probada solo en Chrome de escritorio; falta revisar en celular.
